@@ -1,0 +1,11 @@
+; EJEMPLO 3: condicionales con CMP y JZ
+MOV AX, 10
+MOV BX, 10
+CMP AX, BX
+JZ IGUALES
+PRINT 0
+JMP FIN
+IGUALES:
+    PRINT 1
+FIN:
+HLT
